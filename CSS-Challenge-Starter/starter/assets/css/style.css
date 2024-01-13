@@ -1,0 +1,83 @@
+/* GENERAL STYLES */
+
+/* 
+  This style rule is a small example of a CSS reset rule. 
+  This resets the browser defaults to give you a clean starting point and minimizes cross-browser differences. 
+*/
+
+* { 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+
+/* 
+  The following styles utilize properties not covered in this course.
+  
+  Feel free to play around with them to see the effects, as well as do some personal discovery by heading to the CSS documentation. 
+*/
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/* TEXT STYLES */
+
+
+/* HERO DIV WITH BACKGROUND IMAGE */
+
+
+/* MAIN */
+
+
+/* BENEFITS ASIDE */
+
+.benefits {
+  clear: both;
+  float: right;
+}
+
+.benefit img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+
+/* SERVICES SECTIONS */
+
+
+/* FOOTER */
+
+footer {
+  clear: both;
+}
+
+
+/* FLOATS */
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
